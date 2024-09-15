@@ -23,6 +23,26 @@ h2 {
   font-weight: 400;
 }
 
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 30px;
+}
+
+li {
+  padding-left: 15px;
+  margin-block: 5px;
+}
+
+ol li::marker {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+hr {
+  margin-block: 30px;
+  border-top: hsl(30, 18%, 87%);
+}
+
 .recipe-container {
   max-width: 900px;
   margin-inline: auto;
@@ -38,7 +58,7 @@ h2 {
 }
 
 .preparation-time-container {
-  margin-top: 25px;
+  margin-block: 25px;
   background-color: hsl(330, 100%, 98%);
   padding: 20px 30px;
   border-radius: 25px;
@@ -47,9 +67,4 @@ h2 {
 .preparation-time-container h3 {
   color: hsl(332, 51%, 32%);
   padding-bottom: 5px;
-}
-
-.preparation-time-container li {
-  padding-left: 15px;
-  margin-block: 5px;
 }
