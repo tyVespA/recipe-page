@@ -1,5 +1,26 @@
+/* FONTS  */
+
+@font-face {
+  font-family: "outfit";
+  src: url(./assets/fonts/outfit/Outfit-Regular.ttf);
+}
+
+@font-face {
+  font-family: "young-serif";
+  src: url(./assets//fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+/* FONTS END */
+
 body {
   background-color: hsl(30, 54%, 90%);
+  font-family: "outfit";
+}
+
+h1,
+h2 {
+  font-family: "young-serif";
+  font-weight: 400;
 }
 
 .recipe-container {
@@ -14,4 +35,21 @@ body {
 .recipe-container img {
   border-radius: 25px;
   margin-bottom: 20px;
+}
+
+.preparation-time-container {
+  margin-top: 25px;
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px 30px;
+  border-radius: 25px;
+}
+
+.preparation-time-container h3 {
+  color: hsl(332, 51%, 32%);
+  padding-bottom: 5px;
+}
+
+.preparation-time-container li {
+  padding-left: 15px;
+  margin-block: 5px;
 }
