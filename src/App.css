@@ -1,0 +1,17 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.recipe-container {
+  max-width: 900px;
+  margin-inline: auto;
+  margin-top: 50px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.recipe-container img {
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
