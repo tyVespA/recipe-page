@@ -21,6 +21,7 @@ h1,
 h2 {
   font-family: "young-serif";
   font-weight: 400;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -39,7 +40,7 @@ ol li::marker {
 }
 
 hr {
-  margin-block: 30px;
+  margin-block: 40px;
   border-top: hsl(30, 18%, 87%);
 }
 
