@@ -17,6 +17,10 @@ body {
   font-family: "outfit";
 }
 
+h1 {
+  font-size: 35px;
+}
+
 h1,
 h2 {
   font-family: "young-serif";
@@ -44,18 +48,24 @@ hr {
   border-top: hsl(30, 18%, 87%);
 }
 
+.image-container {
+  padding: 30px;
+}
+
 .recipe-container {
   max-width: 900px;
   margin-inline: auto;
   margin-block: 50px;
   background-color: hsl(0, 0%, 100%);
-  padding: 30px;
   border-radius: 25px;
 }
 
 .recipe-container img {
   border-radius: 25px;
-  margin-bottom: 20px;
+}
+
+.text-container {
+  padding: 30px;
 }
 
 .preparation-time-container {
@@ -93,4 +103,10 @@ hr {
   color: hsl(14, 45%, 36%);
   font-weight: bold;
   width: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .image-container {
+    padding: 0px;
+  }
 }
