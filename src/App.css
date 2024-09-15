@@ -47,7 +47,7 @@ hr {
 .recipe-container {
   max-width: 900px;
   margin-inline: auto;
-  margin-top: 50px;
+  margin-block: 50px;
   background-color: hsl(0, 0%, 100%);
   padding: 30px;
   border-radius: 25px;
@@ -68,4 +68,29 @@ hr {
 .preparation-time-container h3 {
   color: hsl(332, 51%, 32%);
   padding-bottom: 5px;
+}
+
+.row {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.row:first-of-type {
+  padding-top: 25px;
+}
+
+.row:last-of-type {
+  margin-bottom: 20px;
+}
+
+.chart-divider {
+  margin-block: 15px;
+}
+
+.second-column {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  width: 100px;
 }
